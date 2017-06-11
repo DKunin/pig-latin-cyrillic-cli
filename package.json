@@ -1,0 +1,35 @@
+{
+  "name": "pig-latin-cyrillic-cli",
+  "version": "1.0.0",
+  "private": false,
+  "main": "cli.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dkunin/pig-latin-cyrillic-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dkunin/pig-latin-cyrillic-cli/issues"
+  },
+  "bin": {
+    "pig-lat": "cli.js"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "homepage": "https://github.com/dkunin/pig-latin-cyrillic-cli",
+  "keywords": [
+    "cli,",
+    "conv,",
+    "exchange"
+  ],
+  "license": "MIT",
+  "description": "CLI realisation for super simple fun project for translating to pig latin in russian",
+  "dependencies": {
+    "pig-latin-cyrillic": "1.0.0",
+    "chalk": "1.1.3",
+    "meow": "3.7.0"
+  },
+  "devDependencies": {
+    "ava": "0.19.1"
+  }
+}
